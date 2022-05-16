@@ -1,0 +1,41 @@
+.parent {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+    background-color: red;
+    border: 2px solid red;
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .block1 {
+    position: relative;
+    top: 60px;
+    left: 60px;
+  
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+  
+    background-color: blue;
+    border: 2px solid blue;
+  }
+
+  .block2 {
+    position: relative;
+    top: 60px;
+    left: 60px;
+  
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+  
+    background-color: green;
+    border: 2px solid green;
+  }

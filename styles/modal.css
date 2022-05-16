@@ -1,0 +1,54 @@
+.parent {
+    padding: 2rem;
+    border: 2px solid blue;
+
+
+  }
+
+.fade:before {
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.modul_window {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	padding: 20px;
+	width: 360px;
+	margin-left: -200px;	
+	background: #fff;
+	border: 1px solid orange;
+	z-index: 2;
+	opacity: 1;	
+}
+
+
+  .button1{
+      padding: 20px;
+
+      display: inline-block;
+      background-color: coral;
+      color: white;
+  }
+
+  .button2{
+    padding: 20px;
+
+    display: inline-block;
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+
